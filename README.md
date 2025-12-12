@@ -1,6 +1,6 @@
-# sip expressapi template
+# Patient express REST API
 
-Express based REST API template
+Express based REST API for patients.
 
 ## Install dependencies
 
@@ -9,4 +9,4 @@ npm install
 npm run dev
 ```
 
-See the docs directory for details.
+See the **docs** directory for details.
