@@ -2,7 +2,18 @@ import { DataTypes } from 'sequelize'
 import sequelize from '../database/database.js'
 
 const Visit = sequelize.define('visit', {
-    name: { type: DataTypes.STRING,  allowNull: false  }
+    date: {
+      type: DataTypes.DATEONLY
+    },
+    diagnosis: {
+      type: DataTypes.STRING
+    },
+    doctor: {
+      type: DataTypes.STRING
+    },
+    patientId: {
+      type: DataTypes.INTEGER
+    },
 })
 
 export default Visit
